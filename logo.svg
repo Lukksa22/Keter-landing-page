@@ -1,0 +1,15 @@
+
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .circle { fill: none; stroke: #B08A41; stroke-width: 10; }
+  </style>
+  <g transform="translate(256, 256)">
+    <circle class="circle" r="100"/>
+    <circle class="circle" cx="0" cy="-100" r="100"/>
+    <circle class="circle" cx="0" cy="100" r="100"/>
+    <circle class="circle" cx="-86.6" cy="-50" r="100"/>
+    <circle class="circle" cx="86.6" cy="-50" r="100"/>
+    <circle class="circle" cx="-86.6" cy="50" r="100"/>
+    <circle class="circle" cx="86.6" cy="50" r="100"/>
+  </g>
+</svg>
