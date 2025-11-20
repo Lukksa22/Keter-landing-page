@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Keter – Abre la app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main class="card">
+        <div class="logo-circle">K</div>
+
+        <h1>Keter</h1>
+        <p class="subtitle">
+          Estamos abriendo la app en tu dispositivo. Si no ocurre nada, usa los
+          botones de abajo.
+        </p>
+
+        <div class="status" id="statusMessage">
+          <span class="dot"></span>
+          Intentando abrir la app…
+        </div>
+
+        <div class="buttons">
+          <button id="openAppBtn" class="btn-primary">Abrir en la app</button>
+
+          <button id="downloadAndroidBtn" class="btn-outline">
+            <span>Descargar para Android</span>
+            <span class="platform">Google Play</span>
+          </button>
+
+          <button id="downloadIosBtn" class="btn-outline">
+            <span>Descargar para iOS</span>
+            <span class="platform">App Store</span>
+          </button>
+        </div>
+
+        <p class="helper-text">
+          <strong>Consejo:</strong> si estás en computadora, escanea este enlace
+          desde tu móvil para abrir la app.
+        </p>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
