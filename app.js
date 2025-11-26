@@ -4,8 +4,10 @@
 const APP_SCHEME = "keter://"; // Scheme de tu app
 
 // TODO: reemplaza por tus URLs reales de tienda:
-const ANDROID_STORE_URL = "https://play.google.com/store/apps/details?id=TU.PAQUETE.ANDROID";
-const IOS_STORE_URL = "https://apps.apple.com/app/idTU_ID_DE_APPLE";
+const ANDROID_STORE_URL = "";
+//const ANDROID_STORE_URL = "https://play.google.com/store/apps/details?id=TU.PAQUETE.ANDROID";
+const IOS_STORE_URL = "";
+//const IOS_STORE_URL = "https://apps.apple.com/app/idTU_ID_DE_APPLE";
 
 const statusMessageEl = document.getElementById("statusMessage");
 
